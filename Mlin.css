@@ -1,0 +1,85 @@
+<style>
+ 	h1 {}
+ 	body {
+ 		background-image: url("hintergrund.jpg");
+ 		} 
+ 	h1 { 
+ 		text-align: center;
+ 		color: white;
+ 		caption-side: top;
+ 		font-family: Copperplate,;
+ 		text-shadow: 16px 16px 32px #000000;
+ 		font-size: 150px;
+ 		margin: 50px;
+		background-color: black;
+		width: 1200px;
+ 		
+ 		}
+	h2 { 
+ 		text-align: center;
+ 		color: white;
+ 		caption-side: top;
+ 		font-family: Copperplate,y;
+ 		text-shadow: 16px 16px 32px #000000;
+ 		font-size: 75px;
+ 		margin: 0px;
+		background-color: black;
+		width: 1000px;
+ 		
+ 		}
+	p { 
+ 		text-align: center;
+ 		color: white;
+ 		caption-side: center;
+ 		font-family: Copperplate,;
+ 		text-shadow: 16px 16px 32px #000000;
+ 		font-size: 25px;
+ 		margin: 0px;
+ 		
+ 		}
+ 		
+ 	tr {
+ 		color: white;
+ 		font-size: 60px;
+ 		font-family: Copperplate, ;
+		text-shadow: 16px 16px 32px #000000;	
+ 		}
+ 		
+ 		
+ 	td:hover { 
+ 		background-image: url("stonks.png") ;
+ 		text-shadow: 20px 20px 40px #000000;
+ 		font-size: 75px;
+ 		}
+ 	td {
+ 		text-align: center;
+		
+ 		}
+	table {
+		caption-side: center;
+		} 
+	a:link {
+		color: white;
+		background-color: black;
+		text-decoration: none;
+			}
+
+	a:visited {
+		color: gray;
+		background-color: transparent;
+		text-decoration: none;
+		}
+
+	a:hover {
+		color: red;
+		background-color: transparent;
+		text-decoration: underline;
+		}
+
+	a:active {
+		color: yellow;
+		background-color: transparent;
+		text-decoration: underline;
+		}
+ </style>
+

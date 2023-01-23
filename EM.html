@@ -1,0 +1,92 @@
+<!doctype html>
+	<html lang = de> 
+		<head>
+			<title> Lehrnecke </title> 
+			<link rel="stylesheet" href="Inside.css">
+		</head>
+		<body> 
+			<center>	
+				<h1> Mailserver </h1>
+			</center>
+			<center>
+				<table style="width:1000px">
+						<tr>
+							<td>
+								E-Mails werden auf dem Server zwischengespeichert. Sobald der Nutzer seine E-Mails abruft, wird die E-Mail vom Server gelöscht und ist dann nur noch  auf dem jeweiligen Client verfügbar. (POP3)
+								
+							</td>
+						</tr>
+						<tr>
+
+							<td>
+								<p>
+									Ein Datenaustauschanalyse zeigt, dass ein Ablauf aus:
+								</p>
+								<p>
+								- Verbindung (3-way-handshake)
+								</p>
+								<p>
+								- Anmeldung 
+								</p>
+								<p>
+								- Senden der E-Mail
+								</p>
+								<p>
+								- Trennung 
+								</p>
+								<p>
+								besteht
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p>
+									Genauer ausgeführt (Anmeldung, Senden der E-Mai, Trennung)
+								</p>
+								<p>
+								Client zu Server: HELO (startet die SMPT Sitzung)
+								</p>
+								<p>
+								Server zu Client: Verbindung aufgebaut
+								</p>
+								<p>
+								Client zu Server: Mail form..
+								</p>
+								<p>
+								Server zu Client: Sender ok
+								</p>
+								<p>
+								Client zu Server: RCPT to.. (Empfänger)
+								</p>
+								<p>
+								Server zu Client: Empfänger
+								</p>
+								<p>
+								Client zu Server: DATA (Inhalt der Daten)
+								</p>
+								<p>
+								Server zu Client: Bereit (nennt das Ende der Daten)
+ 
+								</p>
+								<p>
+								Client zu Server: Sende Daten (hier könnte man die volle E-Mail lesen)
+								</p>
+								<p>
+								Server zu Client: Mail queued for delivery (bereit zum senden)
+								</p>
+								<p>
+								Client zu Server: Quit
+								</p>
+								<p>
+								Server zu Client: Verbindung wird beendet
+								</p>
+							</td>
+						</tr>
+				</table>
+			</center>
+		
+			
+		</body>
+		
+	</html>

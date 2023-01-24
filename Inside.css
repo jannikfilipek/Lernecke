@@ -1,4 +1,4 @@
-<style>
+ /* das ist ein "bugfix" für das überlesen der ersten codezeile der Schulrechener, nicht löschen */
  	h1 {}
  	body {
  		background-color: white;
@@ -11,7 +11,6 @@
  		text-shadow: 1px 1px 2px #000000;
  		font-size: 100px;
  		margin: 50px;
-		background-color: ;
 		width: 1200px;
  		
  		}
@@ -23,7 +22,6 @@
  		text-shadow: 1px 1px 2px #000000;
  		font-size: 50px;
  		margin: 0px;
-		background-color: ;
 		width: 1000px;
  		
  		}
@@ -46,9 +44,7 @@
  		}
  		
  		
- 	td:hover { 
  	
- 		}
  	td {
  		text-align: center;
 		
@@ -79,5 +75,4 @@
 		background-color: transparent;
 		text-decoration: underline;
 		}
- </style>
 

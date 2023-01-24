@@ -1,7 +1,7 @@
-<style>
+/* das ist ein "bugfix" für das überlesen der ersten codezeile der Schulrechener, nicht löschen */
  	h1 {}
  	body {
- 		background-image: url("hintergrund.jpg");
+ 		background-image: url("resources/hintergrund.jpg");
  		} 
  	h1 { 
  		text-align: center;
@@ -47,7 +47,7 @@
  		
  		
  	td:hover { 
- 		background-image: url("stonks.png") ;
+ 		background-image: url("resources/stonks.png") ;
  		text-shadow: 20px 20px 40px #000000;
  		font-size: 75px;
  		}
@@ -81,5 +81,5 @@
 		background-color: transparent;
 		text-decoration: underline;
 		}
- </style>
+
 
